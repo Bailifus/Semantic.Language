@@ -108,11 +108,11 @@ The meaning of a composite structure must be determined by its semantic constitu
 
 ## 10. Addressability and implementation neutrality
 
-The Core may require semantic objects to be individually addressable.
+The Core requires each addressable semantic object to have a unique full Hierarchical Identifier Path (HIP) within its Semantic Model. HIP is the normative semantic address of the object.
 
-Such addressability must not be confused with storage identity, memory address, database key, URI scheme, object reference, or any other implementation-specific identifier.
+HIP must not be confused with storage identity, memory address, database key, object reference, or any other implementation-specific identifier. An implementation may use any internal identifiers provided that the normative HIP and its referential meaning are preserved.
 
-Storage, indexing, caching, lookup, persistence, and transport mechanisms are outside the Semantic Core unless separately standardized.
+Storage, indexing, caching, lookup, persistence, transport, segment encoding, and path resolution mechanisms are outside the Semantic Core unless separately standardized.
 
 ## 11. Semantic preservation
 

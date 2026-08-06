@@ -52,3 +52,6 @@ See: RFC-015.
 
 ## Addressability
 See: RFC-016.
+
+## Hierarchical Identifier Path (HIP)
+See: DEF-009, RFC-016.

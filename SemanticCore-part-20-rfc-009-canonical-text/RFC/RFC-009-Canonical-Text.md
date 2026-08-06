@@ -32,6 +32,9 @@ CT-005 Потеря семантики при преобразовании в Ca
 CT-006 Canonical Text имеет приоритет при любом расхождении с Canonical Diagram
 или иным производным представлением.
 
+CT-007 Canonical Text должен содержать полный HIP каждой Entity и каждого
+Statement Instance.
+
 ## Non-goals
 
 - человеко-ориентированный синтаксис;
@@ -50,3 +53,4 @@ CT-006 Canonical Text имеет приоритет при любом расхо
 RFC-001 Semantic Model
 INV-001
 INV-002
+RFC-016 Addressability

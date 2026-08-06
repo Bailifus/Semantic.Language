@@ -65,3 +65,13 @@ Human-readable specifications: RFC-004, RFC-005.
 Правило, ограничивающее допустимые модели.
 
 Human-readable specification: RFC-006.
+## DEF-009 Hierarchical Identifier Path (HIP)
+Упорядоченный иерархический путь, однозначно адресующий один семантический
+элемент в пределах Semantic Model.
+
+Полный HIP является нормативным идентификатором адресуемого элемента.
+Внутренние ключи, указатели и иные идентификаторы реализации не являются HIP
+и не входят в Semantic Core.
+
+Human-readable specification: RFC-016.
+
