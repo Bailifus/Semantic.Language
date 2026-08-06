@@ -1,7 +1,7 @@
 # Traceability
 
-CD-001 -> AX-001
+CD-001 -> CT-006
 CD-002 -> INV-001
 CD-003 -> INV-003
 CD-004 -> INV-002
-CD-005 -> INV-001
+CD-005 -> CT-005

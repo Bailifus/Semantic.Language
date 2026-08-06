@@ -12,7 +12,7 @@ This archive fixes only the constitutional principles of the project.
 
 - Semantic Core is a standard, not merely a language or implementation API.
 - Meaning exists only in the Semantic Model.
-- Canonical Text and Canonical Diagram are canonical serializations.
+- Canonical Text is the primary normative serialization; Canonical Diagram is its derived graphical representation.
 - Presentation is non-semantic and may hide but not destroy semantics.
 - Level of Detail reveals existing semantics.
 - The Core is minimal, compositional, theory-neutral, and technology-independent.

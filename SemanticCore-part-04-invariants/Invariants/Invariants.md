@@ -3,8 +3,10 @@
 ## INV-001 Semantic Preservation
 Ни одно представление не может изменять смысл модели.
 
-## INV-002 Canonical Equivalence
-Канонический текст и каноническая диаграмма выражают одну и ту же модель.
+## INV-002 Textual Primacy
+Canonical Text является первичным нормативным представлением Semantic Model.
+Canonical Diagram является производным представлением Canonical Text и не может
+изменять, дополнять или переопределять его семантику.
 
 ## INV-003 Presentation Independence
 Способ отображения не влияет на семантику.

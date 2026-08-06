@@ -24,13 +24,13 @@ A proposal that requires violating a constitutional principle must amend this do
 The standard separates four layers:
 
 1. **Semantic Model** — defines meaning.
-2. **Canonical Text** — a canonical textual serialization of that meaning.
-3. **Canonical Diagram** — a canonical graphical serialization of that meaning.
+2. **Canonical Text** — the primary normative serialization of that meaning.
+3. **Canonical Diagram** — a derived graphical representation of Canonical Text.
 4. **Presentation** — non-canonical ways to display, navigate, group, hide, expand, collapse, color, or arrange semantic information.
 
 Meaning exists only in the Semantic Model.
 
-Canonical Text and Canonical Diagram serialize the Semantic Model. They do not create additional meaning.
+Canonical Text serializes the Semantic Model and is the normative source for its serialized form. Canonical Diagram represents Canonical Text graphically and must not introduce, remove, or override meaning.
 
 Presentation may alter visibility and arrangement, but it must not alter or destroy the underlying semantics.
 
@@ -118,13 +118,19 @@ Storage, indexing, caching, lookup, persistence, and transport mechanisms are ou
 
 Any transformation claiming to preserve a Semantic Core model must preserve all semantic information defined by that model.
 
-Lossless changes of notation, layout, ordering, encoding, grouping, or visibility are permitted when the original semantics remain recoverable.
+Lossless changes of notation, layout, ordering, encoding, grouping, or visibility are permitted when the original semantics remain recoverable in Canonical Text.
+
+A Canonical Diagram is semantically preserving only when its source Canonical Text can be recovered without semantic loss.
 
 A lossy transformation must identify itself as lossy and must not claim semantic equivalence.
 
-## 12. Canonical equivalence
+## 12. Canonical representation hierarchy
 
-Canonical Text and Canonical Diagram are intended to be equivalent canonical serializations of the same Semantic Model.
+Canonical Text is the primary normative serialization of a Semantic Model.
+
+Canonical Diagram is a derived representation of Canonical Text, not an independent source of normative meaning. A diagram is canonically equivalent to its source only when conversion from Canonical Text to Canonical Diagram and back preserves the Canonical Text without semantic loss.
+
+If Canonical Text and Canonical Diagram conflict or differ in interpretation, Canonical Text prevails.
 
 Independent conforming implementations must be able to determine whether canonical representations denote the same semantic structure according to rules defined by later normative specifications.
 
