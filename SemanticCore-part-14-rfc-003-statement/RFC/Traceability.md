@@ -1,7 +1,7 @@
 # Traceability
 
 ST-001 -> AX-004
-ST-002 -> DEF-004
+ST-002 -> AX-006, AX-009
 ST-003 -> AX-005
 ST-004 -> DEC-003
 ST-005 -> DEC-001
