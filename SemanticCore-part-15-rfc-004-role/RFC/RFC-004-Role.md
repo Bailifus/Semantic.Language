@@ -12,6 +12,8 @@ Status: Draft
 
 ## Definition
 
+Canonical definitions: DEF-005 (Role), DEF-007 (Value).
+
 Role — именованная позиция внутри Statement, предназначенная для получения значения.
 
 ## Normative Requirements

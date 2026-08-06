@@ -12,6 +12,8 @@ Status: Draft
 
 ## Definition
 
+Canonical definition: DEF-001.
+
 Theory представляет собой согласованный набор семантических правил,
 определений и Constraint, расширяющих Semantic Core без изменения его
 базовой семантики.

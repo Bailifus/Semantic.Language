@@ -12,6 +12,8 @@ Status: Draft
 
 ## Definition
 
+Canonical definition: DEF-003.
+
 Entity представляет собой индивидуально адресуемый объект Semantic Model.
 
 ## Normative Requirements

@@ -61,3 +61,15 @@ StatementInstance.Role = Value.
 
 Причина:
 Смысл хранится только в Semantic Model.
+
+---
+
+## DEC-008 Value Has No Intrinsic Semantics
+Решение:
+Semantic Core рассматривает Value только как объект, назначенный Role в
+Statement Instance. Внутренняя семантика Value не является свойством Core и
+выражается посредством других Statement Instance.
+
+Причина:
+Это сохраняет предметную нейтральность Core и не вводит скрытый канал
+семантики вне Statement.

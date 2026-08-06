@@ -12,6 +12,8 @@ Status: Draft
 
 ## Definition
 
+Canonical definition: DEF-004.
+
 Statement определяет тип отношения и полный набор допустимых Role.
 
 ## Normative Requirements

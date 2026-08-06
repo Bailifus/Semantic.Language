@@ -1,49 +1,54 @@
 # Glossary
 
+Glossary является навигационным указателем для человека. Он не создаёт
+самостоятельных определений. Каноническое значение термина задаётся записью
+`DEF-xxx` в `Definitions.md`; подробное объяснение и нормативное поведение —
+соответствующим RFC.
+
 ## Semantic Core
-Минимальный набор универсальных семантических примитивов.
+See: RFC-000.
 
 ## Semantic Model
-Абстрактная модель, содержащая только семантику.
+See: RFC-001.
 
 ## Theory
-Набор правил, ограничений и интерпретаций поверх Semantic Core.
+See: DEF-001, RFC-007.
 
 ## Domain
-Область моделирования.
+See: DEF-002.
 
 ## Entity
-Индивидуально адресуемый объект модели.
+See: DEF-003, RFC-002.
 
 ## Statement
-Тип отношения.
+See: DEF-004, RFC-003.
 
 ## Statement Instance
-Конкретный экземпляр Statement.
+See: DEF-006, RFC-005.
 
 ## Role
-Именованная позиция внутри Statement.
+See: DEF-005, RFC-004.
 
 ## Value
-Значение Role.
+See: DEF-007, RFC-004, RFC-005.
 
 ## Constraint
-Правило допустимости модели.
+See: DEF-008, RFC-006.
 
 ## Canonical Text
-Каноническое текстовое представление модели.
+See: RFC-009.
 
 ## Canonical Diagram
-Каноническое графическое представление модели.
+See: RFC-010.
 
 ## Presentation
-Любое пользовательское отображение модели.
+See: RFC-013.
 
 ## Level of Detail (LOD)
-Изменение степени детализации отображения без изменения семантики.
+See: RFC-014.
 
 ## Semantic Zoom
-UI-проявление Level of Detail.
+See: RFC-015.
 
 ## Addressability
-Возможность устойчиво обратиться к Entity или Statement Instance.
+See: RFC-016.

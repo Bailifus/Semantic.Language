@@ -17,3 +17,7 @@ Statement определяет множество допустимых Role.
 
 ## AX-006 Theory Neutrality
 Semantic Core не определяет идентичность, эквивалентность и уникальность объектов. Эти свойства задаются Theory.
+
+## AX-007 Value Semantic Neutrality
+Semantic Core не определяет внутреннюю семантику Value. Знания о Value
+выражаются посредством Statement Instance.

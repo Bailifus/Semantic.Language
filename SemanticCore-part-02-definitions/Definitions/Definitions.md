@@ -1,7 +1,26 @@
 # Definitions
 
+## Role of this document
+
+This document is the canonical machine-oriented registry of Semantic Core terms.
+Each normative term has one stable identifier and one compact definition here.
+
+RFC documents provide human-oriented explanation, rationale, and normative
+requirements. A defining RFC must reference the corresponding `DEF-xxx`
+identifier, and the registry must reference the defining RFC where one exists.
+
+If documents appear to conflict:
+
+1. `Definitions.md` controls the identity and compact core meaning of a term;
+2. the relevant RFC controls its detailed normative behaviour;
+3. the Glossary is navigational and has no independent definitional authority;
+4. an actual contradiction between the registry and an RFC is a specification
+   defect and must be corrected rather than interpreted as an override.
+
 ## DEF-001 Theory
 Набор семантических правил, ограничений и интерпретаций.
+
+Human-readable specification: RFC-007.
 
 ## DEF-002 Domain
 Область моделирования, внутри которой определены сущности и утверждения.
@@ -9,17 +28,33 @@
 ## DEF-003 Entity
 Индивидуально адресуемый объект модели.
 
+Human-readable specification: RFC-002.
+
 ## DEF-004 Statement
 Тип отношения, определяющий набор ролей.
+
+Human-readable specification: RFC-003.
 
 ## DEF-005 Role
 Именованная позиция внутри Statement.
 
+Human-readable specification: RFC-004.
+
 ## DEF-006 Statement Instance
 Конкретный экземпляр Statement.
 
+Human-readable specification: RFC-005.
+
 ## DEF-007 Value
-Значение роли. Может быть Entity либо Statement Instance.
+Объект, назначенный Role в Statement Instance.
+
+Value не является отдельным видом объекта Semantic Core: Value может быть
+Entity либо Statement Instance. Semantic Core не определяет внутреннюю
+семантику Value; знания о Value выражаются посредством Statement Instance.
+
+Human-readable specifications: RFC-004, RFC-005.
 
 ## DEF-008 Constraint
 Правило, ограничивающее допустимые модели.
+
+Human-readable specification: RFC-006.

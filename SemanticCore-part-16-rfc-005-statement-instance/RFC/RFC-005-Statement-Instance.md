@@ -12,7 +12,12 @@ Status: Draft
 
 ## Definition
 
-Statement Instance является конкретным экземпляром Statement, в котором каждой Role назначено значение.
+Canonical definitions: DEF-006 (Statement Instance), DEF-007 (Value).
+
+Statement Instance является конкретным экземпляром Statement, в котором каждой Role назначено Value.
+
+Value — объект, назначенный Role. Semantic Core не приписывает Value внутреннюю
+семантику; знания о нём выражаются посредством Statement Instance.
 
 ## Normative Requirements
 
@@ -26,6 +31,9 @@ SI-004 Значением Role может быть только Entity или St
 
 SI-005 Statement Instance является адресуемым объектом Semantic Model.
 
+SI-006 Semantic Core не должен приписывать Value внутреннюю семантику вне
+Statement Instance, в которых оно участвует.
+
 ## Non-goals
 
 - порядок хранения;
@@ -35,6 +43,9 @@ SI-005 Statement Instance является адресуемым объектом
 ## Rationale
 
 Statement Instance представляет конкретный семантический факт, соответствующий структуре Statement.
+Value участвует в таком факте, но не несёт встроенного описания собственного
+смысла. Любые знания о Value должны быть выражены тем же механизмом — через
+Statement Instance.
 
 ## References
 
@@ -42,3 +53,5 @@ DEF-006
 AX-002
 AX-003
 AX-005
+AX-007
+DEC-008

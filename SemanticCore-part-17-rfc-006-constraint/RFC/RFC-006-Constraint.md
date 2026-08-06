@@ -12,6 +12,8 @@ Status: Draft
 
 ## Definition
 
+Canonical definition: DEF-008.
+
 Constraint определяет дополнительное правило,
 которому должны соответствовать элементы Semantic Model
 в рамках конкретной Theory.
