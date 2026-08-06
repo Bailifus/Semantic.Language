@@ -21,3 +21,10 @@ Semantic Core не определяет идентичность, эквивал
 ## AX-007 Value Semantic Neutrality
 Semantic Core не определяет внутреннюю семантику Value. Знания о Value
 выражаются посредством Statement Instance.
+
+## AX-008 Explicit Instance Existence
+Структурно допустимое назначение Values ролям Statement не создаёт Statement
+Instance автоматически. Statement Instance существует в Semantic Model тогда
+и только тогда, когда оно соответствует своему Statement и явно участвует в
+модели как выраженный семантический факт либо как Value другого Statement
+Instance.

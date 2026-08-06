@@ -41,7 +41,14 @@ Human-readable specification: RFC-003.
 Human-readable specification: RFC-004.
 
 ## DEF-006 Statement Instance
-Конкретный экземпляр Statement.
+Адресуемый экземпляр одного Statement, в котором каждой Role назначено ровно
+одно Value и который явно участвует в Semantic Model.
+
+Структурно допустимое назначение Values ролям Statement само по себе не
+порождает Statement Instance. Statement Instance существует в Semantic Model
+тогда и только тогда, когда оно соответствует своему Statement и используется
+в модели как выраженный семантический факт либо как Value другого Statement
+Instance.
 
 Human-readable specification: RFC-005.
 
