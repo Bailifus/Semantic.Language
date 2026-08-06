@@ -1,0 +1,7 @@
+# Traceability
+
+CT-001 -> AX-001
+CT-002 -> INV-001
+CT-003 -> INV-003
+CT-004 -> INV-002
+CT-005 -> INV-001

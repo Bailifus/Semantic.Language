@@ -1,0 +1,7 @@
+# Traceability
+
+EX-001 -> DEC-002
+EX-002 -> CF-005
+EX-003 -> TH-005
+EX-004 -> TH-002
+EX-005 -> INV-006

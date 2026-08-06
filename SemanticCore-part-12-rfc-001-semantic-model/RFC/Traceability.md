@@ -1,0 +1,11 @@
+# Traceability
+
+SM-001 -> AX-001, DEC-001
+
+SM-002 -> INV-003
+
+SM-003 -> INV-001, INV-002
+
+SM-004 -> INV-006
+
+SM-005 -> DEC-001, DP-005

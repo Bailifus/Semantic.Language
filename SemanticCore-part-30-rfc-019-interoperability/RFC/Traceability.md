@@ -1,0 +1,7 @@
+# Traceability
+
+IO-001 -> CT-005
+IO-002 -> CT-001
+IO-003 -> EQ-003
+IO-004 -> EX-002
+IO-005 -> CF-005

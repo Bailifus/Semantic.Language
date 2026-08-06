@@ -1,0 +1,7 @@
+# Traceability
+
+EQ-001 -> INV-002
+EQ-002 -> INV-003
+EQ-003 -> CT-005
+EQ-004 -> CD-005
+EQ-005 -> AD-003

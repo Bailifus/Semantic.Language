@@ -1,0 +1,7 @@
+# Traceability
+
+RL-001 -> DEF-005
+RL-002 -> DEF-005
+RL-003 -> AX-004
+RL-004 -> AX-002
+RL-005 -> AX-003

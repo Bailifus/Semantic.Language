@@ -1,0 +1,7 @@
+# Traceability
+
+TH-001 -> CS-001
+TH-002 -> DEC-002
+TH-003 -> INV-006
+TH-004 -> AX-006
+TH-005 -> OQ-004

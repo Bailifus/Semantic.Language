@@ -1,0 +1,7 @@
+# Traceability
+
+CF-001 -> SM-001
+CF-002 -> CT-005, CD-005
+CF-003 -> INV-001
+CF-004 -> AX-001
+CF-005 -> DEC-002

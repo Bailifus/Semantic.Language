@@ -1,0 +1,7 @@
+# Traceability
+
+SP-001 -> CL-001
+SP-002 -> TS-002
+SP-003 -> CL-003
+SP-004 -> INV-001
+SP-005 -> IO-003
