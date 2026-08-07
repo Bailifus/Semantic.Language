@@ -1,5 +1,5 @@
 # Manifest
 
 Включено:
-- RFC-015 Semantic Zoom;
-- матрица трассируемости.
+- RFC-015 Semantic Zoom (Informational);
+- карта производных связей с RFC-014 и инвариантами.

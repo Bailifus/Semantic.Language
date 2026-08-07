@@ -1,7 +1,10 @@
-# Traceability
+# Derivation Map
 
-SZ-001 -> PR-001
-SZ-002 -> INV-001
-SZ-003 -> INV-003
-SZ-004 -> LOD-003
-SZ-005 -> LOD-001
+RFC-015 является информационным документом и не вводит собственных нормативных
+идентификаторов требований.
+
+Semantic Zoom влияет только на Presentation -> LOD-001
+Semantic Zoom не изменяет Semantic Model -> LOD-002
+Скрытие/отображение не изменяет семантику -> LOD-005, INV-003
+Скрытый элемент остаётся доступным на другом уровне -> LOD-003
+Semantic Zoom реализуется через Level of Detail -> RFC-000 §8, RFC-014

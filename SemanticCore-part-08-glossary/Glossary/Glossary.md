@@ -48,7 +48,7 @@ See: RFC-013.
 See: RFC-014.
 
 ## Semantic Zoom
-See: RFC-015.
+See: RFC-015 (informational), RFC-014 (normative LOD).
 
 ## Addressability
 See: RFC-016.

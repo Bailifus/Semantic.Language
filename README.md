@@ -1,8 +1,8 @@
 # Semantic Core
 
-Current Semantic Core specification: **v0.0.7 — 2026-08-06**.
+Current Semantic Core specification: **v0.0.8 — 2026-08-07**.
 
-Current archive formation date: **2026-08-06**.
+Current archive formation date: **2026-08-07**.
 
 The repository is the single source of truth for the specification and its development history.
 
