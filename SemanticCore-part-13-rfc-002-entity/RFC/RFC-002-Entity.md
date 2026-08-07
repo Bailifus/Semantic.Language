@@ -41,5 +41,5 @@ Entity — минимальная единица моделирования, н�
 
 ## References
 
-Definitions DEF-003
+Definitions DEF-003, DEF-010
 Axioms AX-001, AX-003

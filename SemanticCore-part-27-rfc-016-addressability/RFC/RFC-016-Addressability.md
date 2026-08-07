@@ -15,6 +15,13 @@ Hierarchical Identifier Path (HIP).
 
 ## Definition
 
+Canonical definitions: DEF-010 (Addressability), DEF-009 (Hierarchical
+Identifier Path).
+
+Addressability — свойство семантического элемента, позволяющее однозначно
+ссылаться на него в пределах Semantic Model посредством его нормативного
+идентификатора (DEF-010).
+
 Hierarchical Identifier Path (HIP) — упорядоченный иерархический путь,
 однозначно адресующий один семантический элемент в пределах Semantic Model
 (DEF-009).
@@ -74,6 +81,7 @@ Theory утверждает их семантическую идентичнос
 ## References
 
 DEF-009
+DEF-010
 RFC-001 Semantic Model
 RFC-009 Canonical Text
 RFC-010 Canonical Diagram

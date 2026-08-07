@@ -26,7 +26,7 @@ Human-readable specification: RFC-007.
 Область моделирования, внутри которой определены сущности и утверждения.
 
 ## DEF-003 Entity
-Индивидуально адресуемый объект модели.
+Индивидуально адресуемый (DEF-010) объект модели.
 
 Human-readable specification: RFC-002.
 
@@ -65,6 +65,7 @@ Human-readable specifications: RFC-004, RFC-005.
 Правило, ограничивающее допустимые модели.
 
 Human-readable specification: RFC-006.
+
 ## DEF-009 Hierarchical Identifier Path (HIP)
 Упорядоченный иерархический путь, однозначно адресующий один семантический
 элемент в пределах Semantic Model.
@@ -75,3 +76,12 @@ Human-readable specification: RFC-006.
 
 Human-readable specification: RFC-016.
 
+## DEF-010 Addressability
+Свойство семантического элемента, позволяющее однозначно ссылаться на него в
+пределах Semantic Model посредством его нормативного идентификатора.
+
+Для Entity и Statement Instance нормативным идентификатором является полный HIP
+(DEF-009). Addressability не определяет предметно-семантическую идентичность
+элемента.
+
+Human-readable specification: RFC-016.

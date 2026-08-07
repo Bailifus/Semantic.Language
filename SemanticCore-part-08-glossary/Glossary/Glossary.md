@@ -51,7 +51,7 @@ See: RFC-014.
 See: RFC-015 (informational), RFC-014 (normative LOD).
 
 ## Addressability
-See: RFC-016.
+See: DEF-010, RFC-016.
 
 ## Hierarchical Identifier Path (HIP)
 See: DEF-009, RFC-016.
