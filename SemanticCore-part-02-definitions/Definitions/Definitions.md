@@ -35,9 +35,10 @@ Human-readable specification: RFC-002.
 задающее полный набор Role.
 
 В базовом механизме Semantic Core Statement является единственным примитивом,
-который задаёт семантику отношения. Конкретный факт выражается Statement
-Instance, связывающим Values с Roles этого Statement. Statement само может
-использоваться как Value (DEF-007), не теряя своей семантики отношения.
+который задаёт семантику отношения. Core не декомпозирует эту семантику на
+отдельный Predicate и набор Role. Конкретный факт выражается Statement Instance,
+связывающим Values с Roles этого Statement. Statement само может использоваться
+как Value (DEF-007), не теряя своей семантики отношения.
 
 Human-readable specification: RFC-003.
 

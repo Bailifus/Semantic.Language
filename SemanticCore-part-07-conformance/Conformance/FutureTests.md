@@ -12,3 +12,4 @@ FCT-004 Canonical round-trip
 FCT-005 Presentation invariance
 FCT-006 Theory extension isolation
 FCT-007 Statement as Value
+FCT-008 Statement semantics without Predicate primitive
