@@ -31,12 +31,19 @@ Human-readable specification: RFC-007.
 Human-readable specification: RFC-002.
 
 ## DEF-004 Statement
-Тип отношения, определяющий набор ролей.
+Тип семантического отношения, определяющий полный набор Role.
+
+В базовом механизме Semantic Core Statement является единственным примитивом,
+который задаёт семантику отношения. Конкретный факт выражается Statement
+Instance, связывающим Values с Roles этого Statement.
 
 Human-readable specification: RFC-003.
 
 ## DEF-005 Role
-Именованная позиция внутри Statement.
+Именованная позиция участия внутри Statement.
+
+Role определяет только способ участия Value в конкретном Statement и не имеет
+самостоятельной семантики вне этого Statement.
 
 Human-readable specification: RFC-004.
 

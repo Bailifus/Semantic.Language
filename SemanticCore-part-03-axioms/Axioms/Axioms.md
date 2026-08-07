@@ -44,4 +44,9 @@ Instance. Совпадение структуры, значений, предс�
 Каждая Entity и каждый Statement Instance адресуются полным Hierarchical
 Identifier Path (HIP), уникальным в пределах Semantic Model. HIP определяет
 нормативный путь к элементу, но не способ его внутреннего хранения или поиска.
+## AX-011 Statement-Centered Semantics
+В базовом механизме Semantic Core семантика отношения задаётся только Statement.
+Role задаёт позицию участия внутри своего Statement и не вводит самостоятельной
+семантики. Statement Instance не определяет новое отношение, а выражает
+конкретный семантический факт, связывая Values с Roles ровно одного Statement.
 

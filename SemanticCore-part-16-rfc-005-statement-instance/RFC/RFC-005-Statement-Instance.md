@@ -24,7 +24,9 @@ Model только тогда, когда он используется как �
 либо как Value другого Statement Instance.
 
 Value — объект, назначенный Role. Semantic Core не приписывает Value внутреннюю
-семантику; знания о нём выражаются посредством Statement Instance.
+семантику; знания о нём выражаются посредством Statement Instance. Сам
+Statement Instance не задаёт новое отношение: он выражает семантику своего
+Statement для конкретного набора назначенных Values.
 
 ## Normative Requirements
 
@@ -45,6 +47,9 @@ SI-007 Statement Instance существует в Semantic Model тогда и �
 когда оно удовлетворяет SI-001—SI-004 и явно участвует в модели как выраженный
 семантический факт либо как Value другого Statement Instance.
 
+SI-008 Statement Instance не определяет самостоятельную семантику отношения, а
+выражает семантику своего Statement посредством назначения Values его Roles.
+
 ## Non-goals
 
 - порядок хранения;
@@ -62,7 +67,9 @@ Statement Instance представляет конкретный семанти�
 
 Value участвует в таком факте, но не несёт встроенного описания собственного
 смысла. Любые знания о Value должны быть выражены тем же механизмом — через
-Statement Instance.
+Statement Instance. Благодаря этому все семантические факты используют один и
+тот же механизм: Statement задаёт отношение, а Statement Instance связывает
+конкретные Values с его Roles.
 
 ## References
 
@@ -75,3 +82,5 @@ AX-007
 AX-008
 DEC-008
 DEC-009
+AX-011
+DEC-012

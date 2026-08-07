@@ -3,8 +3,11 @@
 ## CF-001 Core Primitives
 Реализация должна поддерживать все примитивы Semantic Core.
 
-## CF-002 Role Semantics
-Реализация должна интерпретировать присвоение значения роли одинаково.
+## CF-002 Statement-Centered Semantics
+Реализация должна интерпретировать Statement как источник семантики отношения.
+Role определяет участие Value только в контексте своего Statement, а Statement
+Instance выражает конкретный факт без введения самостоятельной семантики
+отношения.
 
 ## CF-003 Canonical Representation Hierarchy
 Canonical Text должен быть первичным нормативным представлением модели.
