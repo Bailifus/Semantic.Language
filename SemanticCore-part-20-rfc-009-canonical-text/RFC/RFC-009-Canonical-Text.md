@@ -32,8 +32,8 @@ CT-005 Потеря семантики при преобразовании в Ca
 CT-006 Canonical Text имеет приоритет при любом расхождении с Canonical Diagram
 или иным производным представлением.
 
-CT-007 Canonical Text должен содержать полный HIP каждой Entity и каждого
-Statement Instance.
+CT-007 Canonical Text должен содержать полный HIP каждой Entity, каждого
+Statement и каждого Statement Instance.
 
 ## Non-goals
 

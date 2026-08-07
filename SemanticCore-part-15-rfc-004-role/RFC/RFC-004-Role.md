@@ -28,7 +28,7 @@ RL-003 Role не существует вне Statement.
 
 RL-004 Каждое вхождение Role в Statement Instance имеет ровно одно значение.
 
-RL-005 Значением Role может быть Entity либо Statement Instance.
+RL-005 Значением Role может быть Entity, Statement либо Statement Instance.
 
 RL-006 Role не имеет самостоятельной семантики вне Statement, которому оно
 принадлежит. Имя Role идентифицирует позицию участия внутри этого Statement.
@@ -42,8 +42,9 @@ RL-006 Role не имеет самостоятельной семантики в
 ## Rationale
 
 Role отделяет структуру участия от конкретных Values и является точкой
-связывания Statement Instance. Семантика отношения задаётся Statement, а не
-Role отдельно от него.
+связывания Statement Instance. Value может ссылаться как на объект или факт,
+так и на само определение отношения. Семантика отношения задаётся Statement, а
+не Role отдельно от него.
 
 ## References
 
@@ -53,3 +54,4 @@ AX-003
 DEC-003
 AX-011
 DEC-012
+DEC-013

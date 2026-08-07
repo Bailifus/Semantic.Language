@@ -21,8 +21,9 @@ Canonical Diagram должен быть выводим из Canonical Text и д
 Представление не должно влиять на смысл модели.
 
 ## CF-006 Addressability
-Каждая Entity и каждый Statement Instance должны иметь уникальный и устойчивый
-полный HIP в пределах Semantic Model. Внутренние идентификаторы реализации не
+Каждая Entity, каждый Statement и каждый Statement Instance должны иметь
+уникальный и устойчивый полный HIP в пределах Semantic Model. Внутренние
+идентификаторы реализации не
 могут заменять HIP в каноническом представлении.
 
 ## CF-007 Extension Safety

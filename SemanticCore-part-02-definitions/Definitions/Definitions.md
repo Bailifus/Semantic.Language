@@ -31,11 +31,13 @@ Human-readable specification: RFC-007.
 Human-readable specification: RFC-002.
 
 ## DEF-004 Statement
-Тип семантического отношения, определяющий полный набор Role.
+Индивидуально адресуемое (DEF-010) определение типа семантического отношения,
+задающее полный набор Role.
 
 В базовом механизме Semantic Core Statement является единственным примитивом,
 который задаёт семантику отношения. Конкретный факт выражается Statement
-Instance, связывающим Values с Roles этого Statement.
+Instance, связывающим Values с Roles этого Statement. Statement само может
+использоваться как Value (DEF-007), не теряя своей семантики отношения.
 
 Human-readable specification: RFC-003.
 
@@ -60,11 +62,12 @@ Instance.
 Human-readable specification: RFC-005.
 
 ## DEF-007 Value
-Объект, назначенный Role в Statement Instance.
+Семантический элемент, назначенный Role в Statement Instance.
 
 Value не является отдельным видом объекта Semantic Core: Value может быть
-Entity либо Statement Instance. Semantic Core не определяет внутреннюю
-семантику Value; знания о Value выражаются посредством Statement Instance.
+Entity, Statement либо Statement Instance. Использование элемента как Value не
+создаёт дополнительной семантики и не изменяет семантику, уже определённую его
+видом; знания об элементе выражаются посредством Statement Instance.
 
 Human-readable specifications: RFC-004, RFC-005.
 
@@ -87,8 +90,8 @@ Human-readable specification: RFC-016.
 Свойство семантического элемента, позволяющее однозначно ссылаться на него в
 пределах Semantic Model посредством его нормативного идентификатора.
 
-Для Entity и Statement Instance нормативным идентификатором является полный HIP
-(DEF-009). Addressability не определяет предметно-семантическую идентичность
-элемента.
+Для Entity, Statement и Statement Instance нормативным идентификатором является
+полный HIP (DEF-009). Addressability не определяет предметно-семантическую
+идентичность элемента.
 
 Human-readable specification: RFC-016.

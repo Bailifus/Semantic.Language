@@ -1,13 +1,14 @@
 # Axioms
 
 ## AX-001 Addressability
-Каждая Entity и каждый Statement Instance являются индивидуально адресуемыми.
+Каждая Entity, каждый Statement и каждый Statement Instance являются
+индивидуально адресуемыми.
 
 ## AX-002 Role Value
 Каждое вхождение Role имеет ровно одно значение.
 
 ## AX-003 Value Domain
-Значением Role может быть либо Entity, либо Statement Instance.
+Значением Role может быть Entity, Statement либо Statement Instance.
 
 ## AX-004 Statement Structure
 Statement определяет множество допустимых Role.
@@ -25,8 +26,10 @@ Core может определять собственные референциа
 правила не устанавливают предметную идентичность отдельных элементов.
 
 ## AX-007 Value Semantic Neutrality
-Semantic Core не определяет внутреннюю семантику Value. Знания о Value
-выражаются посредством Statement Instance.
+Использование семантического элемента как Value не создаёт для него
+дополнительной семантики и не изменяет семантику, уже определённую его видом.
+Знания об элементе как предмете утверждений выражаются посредством Statement
+Instance.
 
 ## AX-008 Explicit Instance Existence
 Структурно допустимое назначение Values ролям Statement не создаёт Statement
@@ -41,8 +44,9 @@ Theory явно не установит их семантическую иден
 Instance. Совпадение структуры, значений, представления или иных наблюдаемых
 свойств само по себе не устанавливает идентичность.
 ## AX-010 Hierarchical Addressing
-Каждая Entity и каждый Statement Instance адресуются полным Hierarchical
-Identifier Path (HIP), уникальным в пределах Semantic Model. HIP определяет
+Каждая Entity, каждый Statement и каждый Statement Instance адресуются полным
+Hierarchical Identifier Path (HIP), уникальным в пределах Semantic Model. HIP
+определяет
 нормативный путь к элементу, но не способ его внутреннего хранения или поиска.
 ## AX-011 Statement-Centered Semantics
 В базовом механизме Semantic Core семантика отношения задаётся только Statement.

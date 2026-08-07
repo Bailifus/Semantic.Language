@@ -11,3 +11,4 @@ FCT-003 Statement Instance as Value
 FCT-004 Canonical round-trip
 FCT-005 Presentation invariance
 FCT-006 Theory extension isolation
+FCT-007 Statement as Value
