@@ -70,7 +70,9 @@ External concepts may inspire analysis, but they do not become part of the stand
 
 Semantic Core defines the minimal machinery required to express semantic structures.
 
-Domain-specific meaning, identity rules, equivalence, uniqueness, conflict detection, inference, classification, validation policies, and other higher-order commitments belong to Theories unless explicitly proven to require Core support.
+Domain-specific meaning and rules for semantic identity, semantic equivalence, or semantic uniqueness of individual modeled elements, together with conflict detection, inference, classification, validation policies, and other higher-order commitments, belong to Theories unless explicitly proven to require Core support.
+
+The Core may still define referential and addressing invariants, semantic-preservation requirements, and equivalence criteria for complete Semantic Models or their canonical representations when those rules are required for interoperability and conformance. Such rules must not select a domain theory of element identity.
 
 The Core must remain neutral where multiple coherent theories are possible.
 
@@ -225,7 +227,7 @@ This document does not define:
 - the complete set of Semantic Core primitives;
 - formal axioms;
 - normative definitions of Theory, Domain, Entity, Statement, Role, Constraint, or Statement Instance;
-- identity or equivalence rules;
+- domain-specific identity or equivalence rules for individual modeled elements;
 - concrete textual grammar;
 - diagram syntax;
 - serialization formats;
@@ -246,7 +248,7 @@ Rejected because tying the semantic foundation to a programming language, databa
 
 ### 21.2 Ontology-first specification
 
-Rejected because committing the Core to one theory of identity, equivalence, classification, or inference would prevent alternative coherent theories from using the same semantic foundation.
+Rejected because committing the Core to one domain theory of element identity, element equivalence, classification, or inference would prevent alternative coherent theories from using the same semantic foundation.
 
 ### 21.3 Presentation-driven semantics
 

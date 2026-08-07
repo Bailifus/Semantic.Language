@@ -1,6 +1,6 @@
 # Semantic Core
 
-Current Semantic Core specification: **v0.0.9 — 2026-08-07**.
+Current Semantic Core specification: **v0.0.10 — 2026-08-07**.
 
 Current archive formation date: **2026-08-07**.
 
