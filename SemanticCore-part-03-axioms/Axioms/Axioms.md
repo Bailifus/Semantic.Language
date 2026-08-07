@@ -1,14 +1,14 @@
 # Axioms
 
 ## AX-001 Addressability
-Каждая Entity, каждый Statement и каждый Statement Instance являются
-индивидуально адресуемыми.
+Каждая Entity, каждый Statement, каждая Role и каждый Statement Instance
+являются индивидуально адресуемыми.
 
 ## AX-002 Role Value
 Каждое вхождение Role имеет ровно одно значение.
 
 ## AX-003 Value Domain
-Значением Role может быть Entity, Statement либо Statement Instance.
+Значением Role может быть Entity, Statement, Role либо Statement Instance.
 
 ## AX-004 Statement Structure
 Statement определяет множество допустимых Role.
@@ -44,8 +44,9 @@ Theory явно не установит их семантическую иден
 Instance. Совпадение структуры, значений, представления или иных наблюдаемых
 свойств само по себе не устанавливает идентичность.
 ## AX-010 Hierarchical Addressing
-Каждая Entity, каждый Statement и каждый Statement Instance адресуются полным
-Hierarchical Identifier Path (HIP), уникальным в пределах Semantic Model. HIP
+Каждая Entity, каждый Statement, каждая Role и каждый Statement Instance
+адресуются полным Hierarchical Identifier Path (HIP), уникальным в пределах
+Semantic Model. HIP
 определяет
 нормативный путь к элементу, но не способ его внутреннего хранения или поиска.
 ## AX-011 Statement-Centered Semantics

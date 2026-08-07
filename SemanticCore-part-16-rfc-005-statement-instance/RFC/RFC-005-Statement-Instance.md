@@ -24,8 +24,8 @@ Model только тогда, когда он используется как �
 либо как Value другого Statement Instance.
 
 Value — семантический элемент, назначенный Role. Value может быть Entity,
-Statement либо Statement Instance. Использование элемента как Value не создаёт
-для него дополнительной семантики и не изменяет семантику, уже определённую его
+Statement, Role либо Statement Instance. Использование элемента как Value не
+создаёт для него дополнительной семантики и не изменяет семантику, уже определённую его
 видом. Сам Statement Instance не задаёт новое отношение: он выражает семантику
 своего Statement для конкретного набора назначенных Values.
 
@@ -38,7 +38,7 @@ SI-002 Каждый Role, определённый Statement, должен им�
 
 SI-003 Statement Instance не может содержать Role, отсутствующие в Statement.
 
-SI-004 Значением Role может быть только Entity, Statement или Statement
+SI-004 Значением Role может быть только Entity, Statement, Role или Statement
 Instance.
 
 SI-005 Statement Instance является адресуемым объектом Semantic Model.
@@ -70,7 +70,7 @@ Statement Instance представляет конкретный семанти�
 
 Использование элемента как Value задаёт только его участие в Role и не
 переопределяет семантику самого элемента. Это позволяет тем же механизмом
-выражать факты об Entity, о других Statement Instance и о самих определениях
+выражать факты об Entity, Role, других Statement Instance и самих определениях
 Statement. Благодаря этому все семантические факты используют один и тот же
 механизм: Statement задаёт отношение, а Statement Instance связывает конкретные
 Values с его Roles.
@@ -89,3 +89,4 @@ DEC-009
 AX-011
 DEC-012
 DEC-013
+DEC-015

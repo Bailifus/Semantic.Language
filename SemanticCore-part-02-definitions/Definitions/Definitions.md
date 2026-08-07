@@ -43,10 +43,12 @@ Human-readable specification: RFC-002.
 Human-readable specification: RFC-003.
 
 ## DEF-005 Role
-Именованная позиция участия внутри Statement.
+Индивидуально адресуемая (DEF-010) именованная позиция участия внутри Statement.
 
 Role определяет только способ участия Value в конкретном Statement и не имеет
-самостоятельной семантики вне этого Statement.
+самостоятельной семантики вне этого Statement. Role может использоваться как
+Value (DEF-007), что позволяет выражать семантические факты о самой позиции
+участия обычными Statement Instance без изменения её базовой семантики.
 
 Human-readable specification: RFC-004.
 
@@ -66,9 +68,10 @@ Human-readable specification: RFC-005.
 Семантический элемент, назначенный Role в Statement Instance.
 
 Value не является отдельным видом объекта Semantic Core: Value может быть
-Entity, Statement либо Statement Instance. Использование элемента как Value не
-создаёт дополнительной семантики и не изменяет семантику, уже определённую его
-видом; знания об элементе выражаются посредством Statement Instance.
+Entity, Statement, Role либо Statement Instance. Использование элемента как
+Value не создаёт дополнительной семантики и не изменяет семантику, уже
+определённую его видом; знания об элементе выражаются посредством Statement
+Instance.
 
 Human-readable specifications: RFC-004, RFC-005.
 
@@ -91,8 +94,8 @@ Human-readable specification: RFC-016.
 Свойство семантического элемента, позволяющее однозначно ссылаться на него в
 пределах Semantic Model посредством его нормативного идентификатора.
 
-Для Entity, Statement и Statement Instance нормативным идентификатором является
-полный HIP (DEF-009). Addressability не определяет предметно-семантическую
-идентичность элемента.
+Для Entity, Statement, Role и Statement Instance нормативным идентификатором
+является полный HIP (DEF-009). Addressability не определяет
+предметно-семантическую идентичность элемента.
 
 Human-readable specification: RFC-016.

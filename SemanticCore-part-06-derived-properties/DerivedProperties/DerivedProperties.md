@@ -1,9 +1,9 @@
 # Derived Properties
 
-## DP-001 Statements about Statements
-Из AX-003 следует, что Statement и Statement Instance могут быть значениями
-Role. Следовательно, модель допускает утверждения как об определениях отношений,
-так и о конкретных утверждениях.
+## DP-001 Statements about Semantic Elements
+Из AX-003 следует, что Entity, Statement, Role и Statement Instance могут быть
+значениями Role. Следовательно, единый механизм Statement / Statement Instance
+допускает семантические утверждения о каждом базовом семантическом элементе.
 
 ---
 

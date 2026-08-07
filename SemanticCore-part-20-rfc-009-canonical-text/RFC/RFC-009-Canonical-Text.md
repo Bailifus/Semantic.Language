@@ -33,7 +33,7 @@ CT-006 Canonical Text имеет приоритет при любом расхо
 или иным производным представлением.
 
 CT-007 Canonical Text должен содержать полный HIP каждой Entity, каждого
-Statement и каждого Statement Instance.
+Statement, каждой Role и каждого Statement Instance.
 
 ## Non-goals
 
