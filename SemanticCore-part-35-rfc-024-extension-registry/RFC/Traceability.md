@@ -1,7 +1,7 @@
 # Traceability
 
-ER-001 -> EX-001
-ER-002 -> EX-003
+ER-001 -> EXT-001
+ER-002 -> EXT-003
 ER-003 -> IO-004
-ER-004 -> EX-005
+ER-004 -> EXT-005
 ER-005 -> INV-003

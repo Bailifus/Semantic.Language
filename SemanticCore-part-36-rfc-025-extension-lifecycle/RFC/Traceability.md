@@ -1,7 +1,7 @@
 # Traceability
 
-EL-001 -> EX-001
+EL-001 -> EXT-001
 EL-002 -> INV-001
 EL-003 -> CDS-004
-EL-004 -> EX-005
+EL-004 -> EXT-005
 EL-005 -> ER-005
